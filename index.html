@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra Linux - Российская ОС</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <h1>Astra Linux</h1>
+            <p>Российская операционная система для защищённых сред</p>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main class="container">
+        <!-- Раздел "Что такое Astra Linux" -->
+        <section class="info-block">
+            <h2>Что такое Astra Linux?</h2>
+            <div class="content-box">
+                <p><strong>Astra Linux</strong> — это операционная система специального назначения на базе ядра Linux, созданная для нужд:</p>
+                <ul>
+                    <li>Органов государственного управления</li>
+                    <li>Военного управления</li>
+                    <li>Учреждений, работающих с информацией ограниченного доступа</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Раздел "История разработки" -->
+        <section class="info-block">
+            <h2>История разработки</h2>
+            <div class="content-box">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="year">2008</div>
+                        <div class="event">Начало разработки АО «НПО РусБИТех» с участием Минобороны РФ</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2009</div>
+                        <div class="event">Первая версия Astra Linux Common Edition ("Орёл")</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2011</div>
+                        <div class="event">Выпуск Astra Linux Special Edition 1.2 ("Смоленск")</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2013</div>
+                        <div class="event">Принята на снабжение Минобороны России</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2024</div>
+                        <div class="event">Текущая версия Astra Linux Special Edition 1.8</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Типы дистрибутивов" -->
+        <section class="info-block">
+            <h2>Типы дистрибутивов</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <h3>Common Edition</h3>
+                        <ul>
+                            <li>Свободно распространяемый</li>
+                            <li>Несертифицированный</li>
+                            <li>Для общего использования</li>
+                            <li>Код: 2 (x86-64)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Special Edition</h3>
+                        <ul>
+                            <li>Сертифицированная ОС</li>
+                            <li>Встроенная защита</li>
+                            <li>Для защищённых систем</li>
+                            <li>Обработка секретной информации</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Архитектуры процессоров:</h3>
+                <table>
+                    <tr>
+                        <th>Код</th>
+                        <th>Архитектура</th>
+                    </tr>
+                    <tr><td>1, 2, 7</td><td>x86-64</td></tr>
+                    <tr><td>3</td><td>IBM System Z</td></tr>
+                    <tr><td>4</td><td>ARM</td></tr>
+                    <tr><td>6</td><td>MIPS</td></tr>
+                    <tr><td>8</td><td>Эльбрус e2k</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Раздел "Уровни защиты" -->
+        <section class="info-block">
+            <h2>Уровни защищённости</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="card security-card">
+                        <h3>Усиленный уровень<br>"Воронеж"</h3>
+                        <ul>
+                            <li>Конфиденциальная информация</li>
+                            <li>Государственные системы (ГИС)</li>
+                            <li>Персональные данные</li>
+                            <li>Критическая инфраструктура (КИИ)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card security-card">
+                        <h3>Максимальный уровень<br>"Смоленск"</h3>
+                        <ul>
+                            <li>Любая категория доступа</li>
+                            <li>Государственная тайна</li>
+                            <li>Информация особой важности</li>
+                            <li>Защищённые системы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Процесс загрузки" -->
+        <section class="info-block">
+            <h2>Процесс загрузки ОС</h2>
+            <div class="boot-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">
+                        <strong>Инициализация оборудования</strong><br>
+                        BIOS/UEFI запускает код
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-text">
+                        <strong>Загрузчик GRUB2</strong><br>
+                        Загружается из MBR/EFI
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">
+                        <strong>Ядро Linux</strong><br>
+                        Загружается в память
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-text">
+                        <strong>Initramfs</strong><br>
+                        Временная файловая система
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-text">
+                        <strong>Драйверы устройств</strong><br>
+                        Подгружаются модули ядра
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <div class="step-text">
+                        <strong>Systemd</strong><br>
+                        Основная служба запуска
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">7</div>
+                    <div class="step-text">
+                        <strong>Службы и GUI</strong><br>
+                        Запускаются системные службы
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">8</div>
+                    <div class="step-text">
+                        <strong>Экран входа</strong><br>
+                        Система готова к работе
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел для скриншотов -->
+        <section class="info-block">
+            <h2></h2>
+            <div class="screenshots-grid">
+                <!-- Пример скриншота -->
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                         <img src="images/photo1.png" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image"><div class="screenshot-image">
+                            <div class="screenshot-text">Рабочий стол Astra Linux</div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">1</p>
+                </div>
+                
+                <!-- Остальные скриншоты -->
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                        <div class="screenshot-image">
+                            <img src="images/photo2.png" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image"> 
+                            <div class="screenshot-text"></div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">2</p>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                        <div class="screenshot-image">
+                             <img src="images/photo3.png" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image">
+                            <div class="screenshot-text"></div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">3</p>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                        <div class="screenshot-image">
+                             <img src="images/photo4.png" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image">
+                            <div class="screenshot-text"></div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">4</p>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                        <div class="screenshot-image">
+                             <img src="images/photo5.jpg" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image">
+                            <div class="screenshot-text"></div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">5</p>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                        <div class="screenshot-image">
+                             <img src="images/photo6.jpg" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image">
+                            <div class="screenshot-text"></div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">6</p>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="screenshot-container">
+                        <div class="screenshot-image">
+                              <img src="images/photo7.jpg" alt="Рабочий стол Astra Linux с приложениями" class="screenshot-image">
+                            <div class="screenshot-text"></div>
+                        </div>
+                    </div>
+                    <p class="screenshot-caption">7</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container">
+            <p>Astra Linux — Российская операционная система для защищённых сред</p>
+        </div>
+    </footer>
+</body>
+</html>
